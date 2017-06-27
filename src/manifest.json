@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Steam Wishlist",
+  "description": "Augument your steam wishist with new functionality",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://steamcommunity.com/id/*/wishlist",
+        "*://steamcommunity.com/id/*/wishlist/*"
+      ],
+      "js": [
+        "bundle.main.js"
+      ]
+    }
+  ]
+}

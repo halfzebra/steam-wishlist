@@ -1,0 +1,16 @@
+{
+  "name": "steam-wishlist",
+  "version": "1.0.0",
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.0.1",
+    "webpack": "^3.0.0"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build:dev": "webpack",
+    "watch:dev": "webpack --watch"
+  }
+}
